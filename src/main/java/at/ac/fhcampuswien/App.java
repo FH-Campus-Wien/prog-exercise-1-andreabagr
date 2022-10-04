@@ -90,7 +90,7 @@ public class App {
     }
 
     //todo Task 6
-    public void compareTwoNumbers(){
+    public void compareTwoNumbers() {
         Scanner input = new Scanner(System.in);
 
         System.out.print("n1: ");
@@ -98,15 +98,17 @@ public class App {
         System.out.print("n2: ");
         int n2 = input.nextInt();
 
-        if(n1 == n2) {
+        if(n1 == n2)
+        {
             System.out.println("n1 == n2");
         }
-        else if (n1 < n2) {
-            System.out.println("n1 < n2");
-        }
-        else {
+        else if (n1 > n2) {
             System.out.println("n1 > n2");
-            }
+        }
+        else
+        {
+            System.out.println("n2 > n1");
+        }
     }
 
     //todo Task 7
